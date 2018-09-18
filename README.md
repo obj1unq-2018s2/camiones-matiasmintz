@@ -9,19 +9,19 @@ Parte 1: Camión
 
 Se pide que el camión entienda los siguientes mensajes:
 
-cargar(cosa).
+* cargar(cosa).
 
-descargar(cosa).
+* descargar(cosa).
 
 pesoTotal(): Es la suma del peso del camión vacío (tara) y su carga. la tara del camión es de 1 tonelada.
 
 excedidoDePeso(): Si el peso total es superior al peso máximo. El cual es de 2.5 toneladas.
 
-objetosPeligrosos(n): Todos los objetos cargados que superan el nivel de peligrosidad n.
+* objetosPeligrosos(n): Todos los objetos cargados que superan el nivel de peligrosidad n.
 
-objetosMasPeligrososQue(cosa): Todos los objetos cargados que son más peligrosos que la cosa
+* objetosMasPeligrososQue(cosa): Todos los objetos cargados que son más peligrosos que la cosa
 
-puedeCircularEnRuta(nivelMaximoPeligrosidad) Puede circular si ningúna cosa que transporta supera el nivelMaximoPeligrosidad.
+* puedeCircularEnRuta(nivelMaximoPeligrosidad) Puede circular si ningúna cosa que transporta supera el nivelMaximoPeligrosidad.
 
 Parte 2: Cosas
 
@@ -38,11 +38,11 @@ Arena a granel: El peso es variable. La peligrosidad es 1
 Batería antiaérea : El peso es 300 kilos si está con los misiles o 200 en otro caso.
 En cuanto a la peligrosidad es 100 si está con los misiles y 0 en otro caso.
 
-Contenedor portuario: Un contenedor puede tener otras cosas adentro. El peso es 100 + la suma de todas las cosas que esté adentro. Es tan peligroso como el objeto más peligroso que contiene. Si está vacío es 0.
+* Contenedor portuario: Un contenedor puede tener otras cosas adentro. El peso es 100 + la suma de todas las cosas que esté adentro. Es tan peligroso como el objeto más peligroso que contiene. Si está vacío es 0.
 
 Residuos radioactivos: El peso es variable y su peligrosidad es 200
 
-Embalaje de seguridad: Es una cobertura que envuelve a cualquier otra cosa. El peso es el peso de la cosa que tenga adentro. El nivel de peligrosidad es la mitad del nivel de peligrosidad de lo que envuelve.
+* Embalaje de seguridad: Es una cobertura que envuelve a cualquier otra cosa. El peso es el peso de la cosa que tenga adentro. El nivel de peligrosidad es la mitad del nivel de peligrosidad de lo que envuelve.
 
 Incorporar las cosas al camión. Testear y probar generando distintas combinaciones.
 
